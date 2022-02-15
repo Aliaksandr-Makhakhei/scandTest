@@ -1,7 +1,7 @@
 # scandTest
 
-HTML
-SCSS
+- HTML
+- SCSS
 
 DEMO:
 https://aliaksandr-makhakhei.github.io/scandTest/
