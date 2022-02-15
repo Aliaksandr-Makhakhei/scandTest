@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>ПДВ</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="square"></div>
+        <div class="hero container">
+            <div class="hero__informaton">
+                <h1 class="hero__informaton-title">Поставщик Дальнего Востока</h1>
+                <p class="hero__informaton-text">Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная с
+                    подбора производителя заканчивая доставкой товара до двери. Настолько прозрачных сделок с Китаем вы
+                    еще не осуществляли.
+                </p>
+                <div class="hero__informaton-btn">Узнать больше</div>
+            </div>
+            <picture>
+                <source srcset="/image/hero/trucks-phone.png" media="(min-width: 375px) and (max-width: 576px)">
+                <source srcset="/image/hero/trucks-tablet.png" media="(min-width: 577px) and (max-width: 1024px)">
+                <img class="hero__image" src="/image/hero/trucks.png" alt="trucks">
+            </picture>
+        </div>
+        <div class="cards container">
+            <div class="card">  
+                <div><object class="card__icon" type="image/svg+xml" data="/image/hero/factory.svg"></object></div>
+                <div class="card__wrapper">
+                <div class="card__wrapper-title">Поиск производителей по товару</div>
+                <div class="card__wrapper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</div>
+                </div>
+            </div>
+            <div class="card__line"></div>
+            <div class="card">
+                <div><object class="card__icon" type="image/svg+xml" data="/image/hero/robot.svg"></object></div>
+                <div class="card__wrapper">
+                <div class="card__wrapper-title">Поиск конкретного производителя</div>
+                <div class="card__wrapper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</div>
+                </div>
+            </div>
+            <div class="card__line"></div>
+            <div class="card">
+                <div><object class="card__icon" type="image/svg+xml" data="/image/hero/package.svg"></object></div>
+                <div class="card__wrapper">
+                <div class="card__wrapper-title">Доставка образцов товаров</div>
+                <div class="card__wrapper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

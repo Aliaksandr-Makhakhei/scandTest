@@ -1,0 +1,81 @@
+html {
+  font-size: 10px;
+  height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: $main-style;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.square {
+  position: absolute;
+  right: 0;
+  width: 59.9rem;
+  height: 78.7rem;
+  color: red;
+  background-color: $background;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1280px) {
+  .square {
+    width: 23rem;
+    height: 78rem;
+  }
+
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .square {
+    width: 14rem;
+    height: 78rem;
+  }
+
+  .container {
+    max-width: 770px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .square {
+    width: 17.7rem;
+    height: 74.3rem;
+  }
+
+  .container {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 715px) {
+  .square {
+    width: 100%;
+    height: 72.5rem;
+  }
+
+  .container {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: $phone) and (max-width: 576px) {
+  .square {
+    width: 100%;
+    height: 76.6rem;
+  }
+
+  .container {
+    max-width: 345px;
+  }
+}

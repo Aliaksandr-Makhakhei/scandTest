@@ -1,0 +1,24 @@
+{
+  "name": "scandTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-sass -w ./scss -o ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliaksandr-Makhakhei/scandTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliaksandr-Makhakhei/scandTest/issues"
+  },
+  "homepage": "https://github.com/Aliaksandr-Makhakhei/scandTest#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

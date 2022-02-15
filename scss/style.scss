@@ -1,0 +1,11 @@
+//Default config
+@import '../scss/global/normalize';
+@import '../scss/global/base';
+@import '../scss/global/mixins';
+@import '../scss/global/variables';
+
+// Components
+@import '../scss/components/hero';
+@import '../scss/components/card';
+
+@import '../scss/global/media';
